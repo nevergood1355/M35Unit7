@@ -27,5 +27,4 @@ object Converter {
     fun rubToDollars(value: Double): Double {
         return value / 75;
     }
-
 }
