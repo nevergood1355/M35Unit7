@@ -20,10 +20,5 @@ class MainActivity : AppCompatActivity() {
         binding.user = ObservableField<User>(User(120.0))
     }
 
-    @InverseBindingAdapter(attribute = "android:setText")
-    fun setText(view: EditText, value: String) {
-        view.setText(value)
-    }
-
 }
 
